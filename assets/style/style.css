@@ -1,6 +1,10 @@
 body{
     background-color: rgb(94, 93, 93);
 }
+h3 {
+    color: green;
+
+}
 
 /* .parent {
     display: grid;
