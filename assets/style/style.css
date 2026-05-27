@@ -1,5 +1,9 @@
 body{
-    background-color: blanchedalmond;
+    background-color: rgb(94, 93, 93);
+}
+h3 {
+    color: green;
+
 }
 
 /* .parent {
@@ -14,4 +18,3 @@ body{
 flex-direction: row;
 justify-content: space-evenly;
 } */
-        
