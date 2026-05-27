@@ -1,5 +1,22 @@
 body{
-    background-color: blanchedalmond;
+    background-color: rgb(156, 152, 152);
+}
+
+h3 {
+    color: green;
+    .texto-azul {
+        color: blue;
+    }
+    .texto-rojo {
+        color: red
+    }
+}
+.texto-azul {
+    color:blue;
+}
+
+.texto-rojo {
+    color: red;
 }
 
 /* .parent {
