@@ -1,1 +1,1 @@
-#Trabajo en grupo de branch
+#Trabajo en grupo de branch aplicando conocimientos de uso de github y git.
