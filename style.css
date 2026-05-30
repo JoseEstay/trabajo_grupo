@@ -27,3 +27,18 @@ h3 {
     border: 2px solid black;
     color: rgb(36, 9, 9);
 }
+
+nav div {
+    background-color: lightgray;
+    color: lightgray; 
+}
+
+/* nav div div{
+    background-color: lightgray;
+    color: lightgray;
+} */
+
+/* nav div div ul{
+    background-color: lightgray;
+    color: lightgray;
+} */
