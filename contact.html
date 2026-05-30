@@ -6,6 +6,72 @@
     <title>Document</title>
 </head>
 <body>
+<section id="ContactUs">
+    <h1>Contactanos</h1>
+
+<tbody>Tabla de contactos</tbody>
+<table border="1"> <!-- agregar tablas a la pagina -->
+        <tr> <!-- esto define una fila, todo lo que ponga dentro sera una fila de mi tabla, podemos agregar el atributo border para darle borde a la table, si pongo ="1" o "2" sera mas oo menos grueso -->
+            <th>Nombre</th> <!-- el titulo de la fila, primera tabla -->
+            <th>Mail</th>
+            <th>Contacto telefónico</th>
+            <th>Horas jugadas en LOL</th>
+            <th>ID online</th>
+        </tr>
+        <tr> <!-- otra fila -->
+            <td>Juan Jeldres</td> <!-- agregamos un dato con td, y estara asociado al nombre, por el orden -->
+            <td><a target="_blank" href="https://media.tenor.com/RReT369i1EMAAAAM/phrog.gif">PepeBotejohn@googs.com</a></td>
+            <td>973456789</td>
+            <td>1860 (not proud)</td>
+            <td>PepeBoteia</td>
+        </tr>
+        <tr> <!-- otra fila -->
+            <td>Jose</td>
+            <td><a target="_blank" href="https://www.google.com">xdxdxdxd@googs.com</a></td>
+            <td>923761274</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr> <!-- otra fila -->
+            <td>Felipe</td>
+            <td><a target="_blank" href="https://www.google.com">xdxdxdxd@googs.com</a></td>
+            <td>992875346</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Valentina Lulic</td>
+            <td><a target="_blank" href="https://www.google.com">xdxdxdxd@googs.com</a></td>
+            <td>927374628</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Christian</td>
+            <td><a target="_blank" href="https://www.google.com">xdxdxdxd@googs.com</a></td>
+            <td>937462383</td>
+            <td></td>
+            <td></td>
+        </tr>
+        
     
+    </table>
+
+
+<form action="/url" method="post"> <!-- formularios!, le agregamos action="" para agregar una accion, por ejemplo que se envien datos a "/url", y method="" para seleccionar que metodo de envio se utilizara, eso lo veremos mas adelante, en este caso metodo "post" -->
+        <label for="nombre">nombre:</label> <!-- escribe una definicion de una etiqueta de un elemento de un formulario, le agregamos for="", por que va a apuntar a algo especifico del formulario -->
+        <input type="text" id="name" name="name" placeholder="Gregory House"> <!-- el label de arriba esta vinculado al valor que entrege el input de "nombre", sera de tipo texto type="text" colocamos id, es decir es un elemento unico que referira en este caso solo a el input "name", y podemos poner placeholder="x x" para guiar en letra difuminada lo que se deberia poner, como cuando aparece el formato de rut difuminado para guiarnos -->
+        <br>
+        
+        <label for="email">correo:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="mensaje">mensaje:</label>
+        <input type="text" id="mensaje" name="mensaje" placeholder="Escribe aquí tu mensaje...">
+        <br>
+        <input type="button" value="Enviar">
+
+
 </body>
 </html>
+</section>
