@@ -1,22 +1,29 @@
-body{
-    background-color: burlywood;
-}
 h3 {
     color: green;
-
 }
+
+#Letras {
+    background-color: lightgray
+}
+
+/* table {
+    border: black solid;
+    height: 500px;
+    width: 20%;
+} */
+
 #cambiar{
     color: red;
     cursor: pointer;
     border: 2px solid black;
     width: 200px;
 }
+
 #datos{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    justify-content: space-around;
-    background-color: rgb(9, 9, 9);
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: flex-start;
+    justify-content: space-around; */
     border: 2px solid black;
     color: rgb(36, 9, 9);
 }
