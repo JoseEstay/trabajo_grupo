@@ -3,36 +3,36 @@
 
 ## Backlog
 
-Dia 1
-Objetivo:
-1. 
-2.
+### Dia 1
+- Objetivo:
+1. creacion de html
+2. incorporacion letras al html (img)
 3. 
 4. 
-Dificultades:
+- Dificultades:
 
-Dia 2
-Objetivo:
-Problemas a resolver:
+### Dia 2
+- Objetivo:
+- Problemas a resolver:
 1. 
 2.
 3. 
-Dificultades:
+- Dificultades:
 
-Dia 3
-Objetivo:
-Problemas a resolver:
+### Dia 3
+- Objetivo:
+- Problemas a resolver:
 1. 
 2.
 3. 
-Dificultades:
+- Dificultades:
 
-Dia 4
-Objetivo:
-Problemas a resolver:
+### Dia 4
+- Objetivo:
+- Problemas a resolver:
 1. 
 2.
 3. 
-Dificultades:
+- Dificultades:
 
 Estado actual de los objetivos:
