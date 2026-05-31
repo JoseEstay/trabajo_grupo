@@ -5,10 +5,10 @@
 
 Dia 1
 Objetivo:
-1 -
-2 -
-3 -
-4 -
++ 1 -
++ 2 -
++ 3 -
++ 4 -
 Dificultades:
 
 Dia 2
