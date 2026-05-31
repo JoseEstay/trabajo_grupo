@@ -5,34 +5,34 @@
 
 Dia 1
 Objetivo:
-+ 1 -
-+ 2 -
-+ 3 -
-+ 4 -
+1. 
+2.
+3. 
+4. 
 Dificultades:
 
 Dia 2
 Objetivo:
 Problemas a resolver:
-1 -
-2 -
-3 -
+1. 
+2.
+3. 
 Dificultades:
 
 Dia 3
 Objetivo:
 Problemas a resolver:
-1 -
-2 -
-3 -
+1. 
+2.
+3. 
 Dificultades:
 
 Dia 4
 Objetivo:
 Problemas a resolver:
-1 -
-2 -
-3 -
+1. 
+2.
+3. 
 Dificultades:
 
 Estado actual de los objetivos:
