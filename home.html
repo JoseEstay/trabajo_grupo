@@ -1,11 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tu Tema Aquí</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/homeEstilo.css">
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" target="_blank" href="/home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="/contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="/aboutUs.html">About us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+    </div>
+  </div>
+    </nav>
+
+    <div class="container my-5">
+        
+        <header class="text-center mb-5">
+            <h1>La Revolución del Simracing</h1>
+            <p class="lead">El simracing es algo que con el paso del tiempo se tomaba con broma a ser algo totalmente realista y que mismo pilotos profesionales compiten en este.</p>
+        </header>
+
+        <section class="row align-items-center mb-5">
+            <div class="col-md-7">
+                <h2>El hiperrealismo en pantalla</h2>
+                <h3>La evolución del software </h3>
+                <p>Hoy en día, la línea entre un videojuego y un simulador profesional es casi invisible. Los motores físicos calculan el desgaste de los neumáticos, la temperatura del asfalto y la aerodinámica en tiempo real</p>
+            </div>
+            
+            <div class="col-md-5">
+                <img src="assets/imgs/ac.jpeg" alt="juego simracing, acc" class="img-fluid rounded mi-imagen">
+            </div>
+        </section>
+
+        <section class="row align-items-center mb-5">
+            <div class="col-md-7">
+                <h2>El hardware marca la diferencia</h2>
+                <p>Para conseguir los mejores tiempos, necesitas sentir el vehículo. Atrás quedaron los días de jugar con un teclado o un joystick básico; el simracing moderno requiere equipamiento especializado que transmita cada bache de la pista.</p>
+                <h4>Precisión en cada curva</h4>
+                <p>Dar el salto a volantes con tecnología Direct Drive y sentir la resistencia de unos buenos pedales Moza con célula de carga transforma por completo la experiencia, permitiendo una frenada exacta y un control total al límite.</p>
+            </div>
+            
+            <div class="col-md-5">
+                <img src="assets/imgs/setup.jpeg" alt="simracing setup" class="img-fluid rounded mi-imagen">
+            </div>
+        </section>
+
+    </div>
+
 </body>
 </html>

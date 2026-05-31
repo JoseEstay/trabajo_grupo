@@ -1,16 +1,24 @@
-body{
-    background-color: burlywood;
-}
 h3 {
     color: green;
-
 }
+
+#Letras {
+    background-color: lightgray
+}
+
+/* table {
+    border: black solid;
+    height: 500px;
+    width: 20%;
+} */
+
 #cambiar{
     color: red;
     cursor: pointer;
     border: 2px solid black;
     width: 200px;
 }
+
 #datos{
     display: flex;
     justify-content: space-around;
@@ -37,3 +45,18 @@ h3 {
     margin-top: 20px;
     text-align: center;
 }
+
+nav div {
+    background-color: lightgray;
+    color: lightgray; 
+}
+
+/* nav div div{
+    background-color: lightgray;
+    color: lightgray;
+} */
+
+/* nav div div ul{
+    background-color: lightgray;
+    color: lightgray;
+} */
