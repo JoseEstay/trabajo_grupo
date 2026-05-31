@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="contactstyle.css">
 </head>
 <body>
 <section id="ContactUs">
     <h1>Contactanos</h1>
 
-<tbody>Tabla de contactos</tbody>
-<table border="1"> <!-- agregar tablas a la pagina -->
+    <table class="table table-striped-columns table-bordered" border="1"> <!-- table table-striped, table table-striped-columns, table table-dark table-striped -->
+    <tbody>Tabla de contactos
         <tr> <!-- esto define una fila, todo lo que ponga dentro sera una fila de mi tabla, podemos agregar el atributo border para darle borde a la table, si pongo ="1" o "2" sera mas oo menos grueso -->
             <th>Nombre</th> <!-- el titulo de la fila, primera tabla -->
             <th>Mail</th>
@@ -18,6 +20,8 @@
             <th>Horas jugadas en LOL</th>
             <th>ID online</th>
         </tr>
+        </tbody>
+        <tfoot class="table-group-divider">
         <tr> <!-- otra fila -->
             <td>Juan Jeldres</td> <!-- agregamos un dato con td, y estara asociado al nombre, por el orden -->
             <td><a target="_blank" href="https://media.tenor.com/RReT369i1EMAAAAM/phrog.gif">PepeBotejohn@googs.com</a></td>
@@ -53,7 +57,7 @@
             <td>0 (proud)</td>
             <td>YellowFish</td>
         </tr>
-        
+        </tfoot>
     
     </table>
 
@@ -72,6 +76,7 @@
         <input type="button" value="Enviar">
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
 </section>
