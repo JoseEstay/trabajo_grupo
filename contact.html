@@ -1,82 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link href="contactstyle.css">
+    <title>Contact Us - Grupo 7</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<section id="ContactUs">
-    <h1>Contactanos</h1>
 
-    <table class="table table-striped-columns table-bordered" border="1"> <!-- table table-striped, table table-striped-columns, table table-dark table-striped -->
-    <tbody>Tabla de contactos
-        <tr> <!-- esto define una fila, todo lo que ponga dentro sera una fila de mi tabla, podemos agregar el atributo border para darle borde a la table, si pongo ="1" o "2" sera mas oo menos grueso -->
-            <th>Nombre</th> <!-- el titulo de la fila, primera tabla -->
-            <th>Mail</th>
-            <th>Contacto telefónico</th>
-            <th>Horas jugadas en LOL</th>
-            <th>ID online</th>
-        </tr>
-        </tbody>
-        <tfoot class="table-group-divider">
-        <tr> <!-- otra fila -->
-            <td>Juan Jeldres</td> <!-- agregamos un dato con td, y estara asociado al nombre, por el orden -->
-            <td><a target="_blank" href="https://media.tenor.com/RReT369i1EMAAAAM/phrog.gif">PepeBotejohn@googs.com</a></td>
-            <td>973456789</td>
-            <td>1860 (not proud)</td>
-            <td>PepeBoteia</td>
-        </tr>
-        <tr> <!-- otra fila -->
-            <td>Jose</td>
-            <td><a target="_blank" href="https://www.google.com">jose1234@gmail.com</a></td>
-            <td>923761274</td>
-            <td>0 (proud)</td>
-            <td>jose23</td>
-        </tr>
-        <tr> <!-- otra fila -->
-            <td>Felipe</td>
-            <td><a target="_blank" href="https://www.google.com">xdxdxdxd@googs.com</a></td>
-            <td>992875346</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Valentina Lulic</td>
-            <td><a target="_blank" href="https://www.google.com">xdxdxdxd@googs.com</a></td>
-            <td>927374628</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Christian Lorca</td>
-            <td><a target="_blank" href="https://www.google.com">christianlorca.teo@gmail.com</a></td>
-            <td>937462383</td>
-            <td>0 (proud)</td>
-            <td>YellowFish</td>
-        </tr>
-        </tfoot>
-    
-    </table>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-primary" href="home.html">Grupo 7 Web</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Abecedario</a></li>
+                    <li class="nav-item"><a class="nav-link" href="home.html">HomePage</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutUs.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <main class="container my-5">
+        <section id="ContactUs">
+            <h1 class="mb-4 text-center">Contáctanos</h1>
+            
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <h3 id="h3-rojo">Canales Oficiales del Grupo</h3>
+                    <div class="table-responsive mt-3">
+                        <table class="table table-dark table-striped table-hover align-middle">
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Mail</th>
+                                    <th>Teléfono</th>
+                                    <th>ID Online</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Juan Jeldres</td>
+                                    <td><a href="#" class="text-info">juan@grupo7.cl</a></td>
+                                    <td>+56 9 7345 6789</td>
+                                    <td>PepeBoteia</td>
+                                </tr>
+                                <tr>
+                                    <td>Jose Estay</td>
+                                    <td><a href="#" class="text-info">jose@grupo7.cl</a></td>
+                                    <td>+56 9 2376 1274</td>
+                                    <td>jose23</td>
+                                </tr>
+                                <tr>
+                                    <td>Felipe Miranda</td>
+                                    <td><a href="#" class="text-info">felipe@grupo7.cl</a></td>
+                                    <td>+56 9 9287 5346</td>
+                                    <td>FelipeSim</td>
+                                </tr>
+                                <tr>
+                                    <td>Valentina Lulic</td>
+                                    <td><a href="#" class="text-info">valentina@grupo7.cl</a></td>
+                                    <td>+56 9 2737 4628</td>
+                                    <td>ValenArt</td>
+                                </tr>
+                                <tr>
+                                    <td>Christian Lorca</td>
+                                    <td><a href="#" class="text-info">christian@grupo7.cl</a></td>
+                                    <td>+56 9 3746 2383</td>
+                                    <td>YellowFish</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
 
-<form action="/url" method="post"> <!-- formularios!, le agregamos action="" para agregar una accion, por ejemplo que se envien datos a "/url", y method="" para seleccionar que metodo de envio se utilizara, eso lo veremos mas adelante, en este caso metodo "post" -->
-        <label for="nombre">nombre:</label> <!-- escribe una definicion de una etiqueta de un elemento de un formulario, le agregamos for="", por que va a apuntar a algo especifico del formulario -->
-        <input type="text" id="name" name="name" placeholder="Gregory House"> <!-- el label de arriba esta vinculado al valor que entrege el input de "nombre", sera de tipo texto type="text" colocamos id, es decir es un elemento unico que referira en este caso solo a el input "name", y podemos poner placeholder="x x" para guiar en letra difuminada lo que se deberia poner, como cuando aparece el formato de rut difuminado para guiarnos -->
-        <br>
-        
-        <label for="email">correo:</label>
-        <input type="email" id="email" name="email">
-        <br>
-        <label for="mensaje">mensaje:</label>
-        <input type="text" id="mensaje" name="mensaje" placeholder="Escribe aquí tu mensaje...">
-        <br>
-        <input type="button" value="Enviar">
+                <div class="col-lg-5">
+                    <div class="bg-dark p-4 rounded-4">
+                        <h4 class="mb-3 text-white">Envíanos un mensaje</h4>
+                        <form action="#" method="post">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nombre:</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Gregory House" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo Electrónico:</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="nombre@correo.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje:</label>
+                                <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Enviar Formulario</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <footer class="py-5 mt-auto">
+        <div class="container">
+            <div class="row align-items-center mb-4">
+                <div class="col-md-6 text-center text-md-start">
+                    <h3>Proyecto Académico: Desarrollo Web</h3>
+                    <p class="text-muted mb-0">Todos los derechos reservados © 2026</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <p class="fw-bold text-primary mb-0">Contacto: <a href="mailto:contacto@grupo7.cl" class="text-white text-decoration-none">contacto@grupo7.cl</a></p>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <h5 class="text-center mb-4">👥 Integrantes del Equipo 7 💻</h5>
+            <div class="footer-integrantes">
+                <div class="integrante">
+                    <img src="https://i.postimg.cc/htzV78zm/magnific-labrador-con-traje-ejecut-WMSs-IFKc-Xe.png" alt="Juan">
+                    <h6>Juan Jeldres</h6>
+                    <p><em>CEO Hamburguesas</em></p>
+                    <p>Juan@grupo7.cl</p>
+                </div>
+                <div class="integrante">
+                    <img src="https://i.pinimg.com/236x/a5/4c/5e/a54c5eaa3083a0d3552320dd8a28ebe7.jpg" alt="Valentina">
+                    <h6>Valentina Lulic</h6>
+                    <p><em>Diseñadora Creativa</em></p>
+                    <p>Valentina@grupo7.cl</p>
+                </div>
+                <div class="integrante">
+                    <img src="https://img.freepik.com/fotos-premium/gato-elegante-gafas-sol-traje-postura-confiada-perfecto-representar-frescura-profesionalismo-manera-caprichosa_1207264-19288.jpg" alt="Felipe">
+                    <h6>Felipe Miranda</h6>
+                    <p><em>Catador Completos</em></p>
+                    <p>Felipe@grupo7.cl</p>
+                </div>
+                <div class="integrante">
+                    <img src="https://img.magnific.com/fotos-premium/gato-traje-corbata-que-dice-gato-gafas_986058-16286.jpg?semt=ais_hybrid&w=740&q=80" alt="Christian">
+                    <h6>Christian Lorca</h6>
+                    <p><em>Front-End Dev</em></p>
+                    <p>Christian@grupo7.cl</p>
+                </div>
+                <div class="integrante">
+                    <img src="https://img.freepik.com/foto-gratis/retrato-gato-antropomorfico-vestido-ropa-humana_23-2151106895.jpg?semt=ais_hybrid&w=740&q=80" alt="Jose">
+                    <h6>Jose Estay</h6>
+                    <p><em>Coordinador Proy.</em></p>
+                    <p>Jose@grupo7.cl</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-</section>

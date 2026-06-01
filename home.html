@@ -1,78 +1,109 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tu Tema Aquí</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <link rel="stylesheet" href="assets/homeEstilo.css">
+    <title>La Revolución del Simracing - Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarScroll">
-      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" target="_blank" href="index.html">Abecedario</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="home.html">HomePage</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="contact.html">Contact us</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" target="_blank" href="aboutUs.html">About us</a>
-        </li>
-        <li class="nav-item dropdown">
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-    </div>
-  </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-primary" href="home.html">Grupo 7 Web</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Abecedario</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="home.html">HomePage</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutUs.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <div class="container my-5">
-        
+    <main class="container my-5">
         <header class="text-center mb-5">
-            <h1>La Revolución del Simracing</h1>
-            <p class="lead">El simracing es algo que con el paso del tiempo se tomaba con broma a ser algo totalmente realista y que mismo pilotos profesionales compiten en este.</p>
+            <h1 class="display-4 fw-bold text-primary">La Revolución del Simracing</h1>
+            <p class="lead text-white-50">El simracing pasó de ser considerado un simple juego a convertirse en una disciplina hiperrealista donde compiten pilotos profesionales.</p>
         </header>
 
         <section class="row align-items-center mb-5">
             <div class="col-md-7">
-                <h2>El hiperrealismo en pantalla</h2>
-                <h3>La evolución del software </h3>
-                <p>Hoy en día, la línea entre un videojuego y un simulador profesional es casi invisible. Los motores físicos calculan el desgaste de los neumáticos, la temperatura del asfalto y la aerodinámica en tiempo real</p>
+                <h2 class="text-white">El hiperrealismo en pantalla</h2>
+                <h3 class="h3-azul">La evolución del software</h3>
+                <p class="text-white-50">Hoy en día, la línea entre un videojuego y un simulador profesional es casi invisible. Los motores físicos calculan el desgaste de los neumáticos, la presión atmosférica, la temperatura del asfalto y la aerodinámica en tiempo real.</p>
             </div>
-            
-            <div class="col-md-5">
-                <img src="assets/imgs/ac.jpeg" alt="juego simracing, acc" class="img-fluid rounded mi-imagen">
+            <div class="col-md-5 text-center">
+                <img src="assets/imgs/setup.jpeg" alt="Software Simracing" class="img-fluid rounded mi-imagen">
             </div>
         </section>
 
         <section class="row align-items-center mb-5">
             <div class="col-md-7">
-                <h2>El hardware marca la diferencia</h2>
-                <p>Para conseguir los mejores tiempos, necesitas sentir el vehículo. Atrás quedaron los días de jugar con un teclado o un joystick básico; el simracing moderno requiere equipamiento especializado que transmita cada bache de la pista.</p>
-                <h4>Precisión en cada curva</h4>
-                <p>Dar el salto a volantes con tecnología Direct Drive y sentir la resistencia de unos buenos pedales Moza con célula de carga transforma por completo la experiencia, permitiendo una frenada exacta y un control total al límite.</p>
+                <h2 class="text-white">El hardware marca la diferencia</h2>
+                <p class="text-white-50">Para conseguir los mejores tiempos en el cronómetro, necesitas sentir el vehículo. Atrás quedaron los días de jugar con un teclado o un control básico; el simracing moderno requiere equipamiento especializado de simulación.</p>
+                <h3 class="h3-azul">Precisión en cada curva</h3>
+                <p class="text-white-50">Dar el salto a volantes con tecnología Direct Drive y sentir la resistencia física real de unos pedales con célula de carga transforma por completo la experiencia en pista, permitiendo una frenada exacta.</p>
             </div>
-            
-            <div class="col-md-5">
-                <img src="assets/imgs/setup.jpeg" alt="simracing setup" class="img-fluid rounded mi-imagen">
+            <div class="col-md-5 text-center">
+                <img src="assets/imgs/ac.jpeg" alt="Setup de Simracing" class="img-fluid rounded mi-imagen">
             </div>
         </section>
+    </main>
 
-    </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <footer class="py-5 mt-auto">
+        <div class="container">
+            <div class="row align-items-center mb-4">
+                <div class="col-md-6 text-center text-md-start">
+                    <h3 class="text-white">Proyecto Académico: Desarrollo Web</h3>
+                    <p class="text-white-50 mb-0">Todos los derechos reservados © 2026</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <p class="fw-bold text-primary mb-0">Contacto: <a href="mailto:contacto@grupo7.cl" class="text-white text-decoration-none">contacto@grupo7.cl</a></p>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <h5 class="text-center mb-4 text-white">👥 Integrantes del Equipo 7 💻</h5>
+            <div class="footer-integrantes">
+                <div class="integrante">
+                    <img src="https://i.postimg.cc/htzV78zm/magnific-labrador-con-traje-ejecut-WMSs-IFKc-Xe.png" alt="Juan">
+                    <h6 class="text-white">Juan Jeldres</h6>
+                    <p class="text-white-50"><em>CEO Hamburguesas</em></p>
+                    <p class="text-white-50">Juan@grupo7.cl</p>
+                </div>
+                <div class="integrante">
+                    <img src="https://i.pinimg.com/236x/a5/4c/5e/a54c5eaa3083a0d3552320dd8a28ebe7.jpg" alt="Valentina">
+                    <h6 class="text-white">Valentina Lulic</h6>
+                    <p class="text-white-50"><em>Diseñadora Creativa</em></p>
+                    <p class="text-white-50">Valentina@grupo7.cl</p>
+                </div>
+                <div class="integrante">
+                    <img src="https://img.freepik.com/fotos-premium/gato-elegante-gafas-sol-traje-postura-confiada-perfecto-representar-frescura-profesionalismo-manera-caprichosa_1207264-19288.jpg" alt="Felipe">
+                    <h6 class="text-white">Felipe Miranda</h6>
+                    <p class="text-white-50"><em>Catador Completos</em></p>
+                    <p class="text-white-50">Felipe@grupo7.cl</p>
+                </div>
+                <div class="integrante">
+                    <img src="https://img.magnific.com/fotos-premium/gato-traje-corbata-que-dice-gato-gafas_986058-16286.jpg?semt=ais_hybrid&w=740&q=80" alt="Christian">
+                    <h6 class="text-white">Christian Lorca</h6>
+                    <p class="text-white-50"><em>Front-End Dev</em></p>
+                    <p class="text-white-50">Christian@grupo7.cl</p>
+                </div>
+                <div class="integrante">
+                    <img src="https://img.freepik.com/foto-gratis/retrato-gato-antropomorfico-vestido-ropa-humana_23-2151106895.jpg?semt=ais_hybrid&w=740&q=80" alt="Jose">
+                    <h6 class="text-white">Jose Estay</h6>
+                    <p class="text-white-50"><em>Coordinador Proy.</em></p>
+                    <p class="text-white-50">Jose@grupo7.cl</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

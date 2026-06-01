@@ -1,11 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About Us - Grupo 7</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-primary" href="home.html">Grupo 7 Web</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Abecedario</a></li>
+                    <li class="nav-item"><a class="nav-link" href="home.html">HomePage</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="aboutUs.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <section class="about-hero text-center text-md-start mb-5">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1 class="display-4 fw-bold text-white mb-3">¿Quiénes somos?</h1>
+                    <h3 class="h3-azul">Grupo 7 - Estudiantes de Desarrollo Web</h3>
+                    <p class="lead">Somos un equipo multidisciplinario de estudiantes apasionados por la tecnología, el diseño de interfaces y las experiencias de usuario dinámicas.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&auto=format&fit=crop&q=60" alt="Equipo de Trabajo" class="img-fluid rounded-circle shadow-lg" style="width: 200px; height: 200px; object-fit: cover;">
+                </div>
+            </div>
+        </section>
+
+        <section class="row g-4">
+            <div class="col-md-6">
+                <div class="p-4 bg-dark rounded-4 h-100">
+                    <h2>Nuestra Misión</h2>
+                    <p>Este sitio web nació como un desafío académico para consolidar conocimientos en HTML5 semántico, maquetación adaptativa mediante Bootstrap 5 y manipulación interactiva del DOM a través de JavaScript.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-4 bg-dark rounded-4 h-100">
+                    <h2>¿Por qué este proyecto?</h2>
+                    <p>Decidimos unir dos mundos: la docencia básica interactiva (con nuestro abecedario lúdico para niños en desarrollo) y el fascinante mundo del Simracing de alta competición, demostrando la versatilidad de estructuración que ofrece la web.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-5 mt-auto">
+        <div class="container">
+            <div class="row align-items-center mb-4">
+                <div class="col-md-6 text-center text-md-start">
+                    <h3>Proyecto Académico: Desarrollo Web</h3>
+                    <p class="text-muted mb-0">Todos los derechos reservados © 2026</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <p class="fw-bold text-primary mb-0">Contacto: <a href="mailto:contacto@grupo7.cl" class="text-white text-decoration-none">contacto@grupo7.cl</a></p>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <h5 class="text-center mb-4">👥 Integrantes del Equipo 7 💻</h5>
+            <div class="footer-integrantes">
+                <div class="integrante">
+                    <img src="https://i.postimg.cc/htzV78zm/magnific-labrador-con-traje-ejecut-WMSs-IFKc-Xe.png" alt="Juan">
+                    <h6>Juan Jeldres</h6>
+                    <p><em>CEO Hamburguesas</em></p>
+                    <p>Juan@grupo7.cl</p>
+                </div>
+                <div class="integrante">
+                    <img src="https://i.pinimg.com/236x/a5/4c/5e/a54c5eaa3083a0d3552320dd8a28ebe7.jpg" alt="Valentina">
+                    <h6>Valentina Lulic</h6>
+                    <p><em>Diseñadora Creativa</em></p>
+                    <p>Valentina@grupo7.cl</p>
+                </div>
+                <div class="integrante">
+                    <img src="https://img.freepik.com/fotos-premium/gato-elegante-gafas-sol-traje-postura-confiada-perfecto-representar-frescura-profesionalismo-manera-caprichosa_1207264-19288.jpg" alt="Felipe">
+                    <h6>Felipe Miranda</h6>
+                    <p><em>Catador Completos</em></p>
+                    <p>Felipe@grupo7.cl</p>
+                </div>
+                <div class="integrante">
+                    <img src="https://img.magnific.com/fotos-premium/gato-traje-corbata-que-dice-gato-gafas_986058-16286.jpg?semt=ais_hybrid&w=740&q=80" alt="Christian">
+                    <h6>Christian Lorca</h6>
+                    <p><em>Front-End Dev</em></p>
+                    <p>Christian@grupo7.cl</p>
+                </div>
+                <div class="integrante">
+                    <img src="https://img.freepik.com/foto-gratis/retrato-gato-antropomorfico-vestido-ropa-humana_23-2151106895.jpg?semt=ais_hybrid&w=740&q=80" alt="Jose">
+                    <h6>Jose Estay</h6>
+                    <p><em>Coordinador Proy.</em></p>
+                    <p>Jose@grupo7.cl</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

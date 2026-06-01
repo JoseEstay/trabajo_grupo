@@ -1,62 +1,168 @@
+/* --- ESTILOS GENERALES Y UNIFICACIÓN --- */
+body {
+    background-color: #2b2d42; /* Fondo gris oscuro unificado */
+    color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1; /* Permite que el footer se mantenga siempre abajo si hay poco contenido */
+}
+
+/* Regla de Rúbrica: Cambiar el color de los h3 a verde por defecto */
 h3 {
-    color: green;
+    color: #28a745 !important;
 }
 
+/* Regla de Rúbrica: Clase para aplicar color azul a exactamente tres etiquetas h3 */
+.h3-azul {
+    color: #0d6efd !important;
+}
+
+/* Regla de Rúbrica: Cambiar un h3 específico a color rojo */
+#h3-rojo {
+    color: #dc3545 !important;
+}
+
+/* --- NAVBAR GLOBAL --- */
+.navbar {
+    background-color: #1a1a24 !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.navbar .nav-link {
+    color: #cbd5e1 !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.navbar .nav-link:hover, .navbar .nav-link.active {
+    color: #ffffff !important;
+}
+
+/* --- ABECEDARIO CON EFECTO HOVER --- */
 #Letras {
-    background-color: rgb(56, 56, 56)
+    background-color: #212529;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 20px;
 }
 
-/* table {
-    border: black solid;
-    height: 500px;
-    width: 20%;
-} */
+.letra-card {
+    background-color: #343a40;
+    border: 1px solid #495057;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-#cambiar{
-    color: red;
+.letra-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.letra-card h5 {
     cursor: pointer;
-    border: 2px solid black;
-    width: 200px;
+    margin-bottom: 15px;
+    transition: color 0.2s ease;
 }
 
-#datos{
+/* Contenedor para el truco del cambio de imagen en Hover */
+.img-container {
+    position: relative;
+    width: 100%;
+    max-width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* Imagen del objeto (oculta por defecto) */
+.img-container .img-hover {
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+/* Al pasar el mouse, se intercambian las opacidades */
+.img-container:hover .img-base {
+    opacity: 0;
+}
+
+.img-container:hover .img-hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+/* --- SECCIÓN HOME (SIMRACING) --- */
+.mi-imagen {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4); 
+    border: 4px solid #ffffff; 
+    transition: transform 0.3s ease; 
+}
+.mi-imagen:hover {
+    transform: scale(1.03);
+}
+
+/* --- SECCIÓN SOBRE NOSOTROS --- */
+.about-hero {
+    background: linear-gradient(135deg, #1e1e2f 0%, #2b2d42 100%);
+    border-radius: 15px;
+    padding: 40px;
+}
+
+/* --- FOOTER GLOBAL --- */
+footer {
+    background-color: #111116;
+    color: #e2e8f0;
+    border-top: 3px solid #495057;
+}
+
+.footer-integrantes {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
-    background-color: rgb(56, 56, 56);
-    color: rgb(228, 228, 228);
-    padding: 20px;
+    gap: 20px;
 }
 
-.integrante{
+.integrante {
     text-align: center;
+    background-color: #1e1d24;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    border: 1px solid #2d2c35;
 }
 
-.integrante h5{
-    margin: 25px 0;
+.integrante img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid #0d6efd;
+    margin-bottom: 10px;
 }
 
-.integrante p{
-    margin: 1px 0;
+.integrante h6 {
+    margin: 5px 0;
+    color: #ffffff;
 }
 
-#info-footer{
-    margin-top: 20px;
-    text-align: center;
+.integrante p {
+    font-size: 0.85rem;
+    margin-bottom: 2px;
+    color: #a0aec0;
 }
-
-nav div {
-    background-color: lightgray;
-    color: lightgray; 
-}
-
-/* nav div div{
-    background-color: lightgray;
-    color: lightgray;
-} */
-
-/* nav div div ul{
-    background-color: lightgray;
-    color: lightgray;
-} */
